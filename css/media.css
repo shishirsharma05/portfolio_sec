@@ -1,0 +1,484 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*search start*/
+        .logo{
+            width: 100%;
+        }
+        .searchbar:hover > .search_input {
+            width: 100px;
+        }
+/*search end*/
+
+/*menu start*/
+        #nav ul.main li a {
+            font-size: 15px;
+        }
+        .menu span{
+            width: 15px;
+        }
+        .menu span::before {
+            width: 19px;
+            top: -10px;
+        }
+        .menu span::after {
+            width: 19px;
+            top: 7px;
+        }
+        .menu.clicked span:before, .menu.clicked span:after {
+            width: 20px;
+        }
+
+        .searchbar {
+            line-height: 25px;
+            height: 32px;
+        }
+        .search_icon {
+            height: 32px;
+            width: 28px;
+        }
+/*menu end*/
+
+/*banner start*/
+        .banner {
+            padding-bottom: 50px;
+        }
+        .banner-content {
+            margin-top: 30px;
+            letter-spacing: 0px;
+            text-align: center;
+        }
+        .banner-content h1 {
+            font-size: 35px;
+        }
+        .banner-img {
+            margin-top: 75px;
+            padding: 0;
+            text-align: center;
+        }
+        .banner-img img{
+            max-width: 70%;
+        }
+        .banner-content p {
+            font-size: 15px;
+            margin-bottom: 30px;
+        }
+/*banner end*/
+
+/*about start*/
+        .about h1 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+        .about {
+            padding-bottom: 50px;
+        }
+        .about-content h4 {
+            font-size: 17px;
+            text-align: center;
+        }
+        .about p {
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+        }
+        .count h2 {
+            font-size: 30px;
+        }
+        .count p {
+            font-size: 11px;
+        }
+        .cv a {
+            padding: 8px 15px;
+            font-size: 15px;
+        }
+        .social-link {
+            text-align: right;
+        }
+        .prog {
+            padding-top: 45px;
+        }
+/*about end*/
+
+/*work start*/
+        .work {
+            padding-bottom: 50px;
+        }
+        .work-c p {
+            padding: 0px;
+        }
+        .work h1 {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+/*work end*/
+
+/*latest work start*/
+    .latest-work{
+        padding-bottom: 50px;
+    }
+    .latest-work-content{
+        padding-top: 10px;
+        text-align: center;
+    }
+    .latest-work p {
+        padding: 0px;
+    }
+    .latest-work h1 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+/*latest work end*/
+
+/*project start*/
+    .project{
+        margin-bottom: 70px;
+        padding: 40px 0 60px;
+    }
+    .project-content h1 {
+        font-size: 25px;
+    }
+    .project-content h3 {
+        padding: 0px 0 10px;
+        font-size: 14px;
+    }
+/*project end*/
+
+/*slider start*/
+    .carousel-indicators {
+        bottom: -40px;
+    }
+    .box1, .box2 {
+        margin: 0px 0;
+    }
+    .box1 img {
+        width: 100%;
+    }
+    .box2 h4 {
+        padding: 20px 0 0;
+    }
+    .box3{
+        text-align: center;
+    }
+    .box3 p{
+        font-size: 12px;
+    }
+/*slider end*/
+
+/*contact start*/
+    .contact{
+        padding-bottom: 30px;
+    }
+    .c-box {
+        margin-top: 20px;
+        padding-bottom: 0;
+        text-align: center;
+    }
+/*contact end*/
+
+/*footer section start*/
+        
+/*footer section end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*search start*/
+   .logo{
+        width: 100%;
+    }
+    .searchbar:hover > .search_input {
+        width: 200px;
+    }
+/*search end*/
+
+/*menu start*/
+    #nav ul.main li a {
+        font-size: 15px;
+    }
+    .menu span{
+        width: 15px;
+    }
+    .menu span::after {
+        width: 25px;
+    }
+    .menu span::before {
+        width: 25px;
+    }
+    .menu.clicked span:before, .menu.clicked span:after {
+        width: 15px;
+    }
+
+    .searchbar {
+        line-height: 25px;
+        height: 32px;
+    }
+    .search_icon {
+        height: 32px;
+        width: 28px;
+    }
+/*menu end*/
+
+/*banner start*/
+        .banner {
+            padding-bottom: 70px;
+        }
+        .banner-content {
+            margin-top: 100px;
+            letter-spacing: 0px;
+        }
+        .banner-content h1 {
+            font-size: 35px;
+        }
+        .banner-img {
+            margin-top: 80px;
+            padding: 0;
+            text-align: center;
+        }
+        .banner-img img{
+            max-width: 75%;
+        }
+        .banner-content {
+            margin-top: 30px;
+            letter-spacing: 0px;
+            text-align: center;
+        }
+/*banner end*/
+
+/*about start*/
+         
+        .about h1 {
+            font-size: 40px;
+            margin-bottom: 25px;
+        }
+        .about {
+            padding-bottom: 70px;
+        }
+        .about-content h4 {
+            font-size: 20px;
+            text-align: center;
+        }
+        .about p {
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+        }
+        .count h2 {
+            font-size: 30px;
+        }
+        .count p {
+            font-size: 11px;
+        }
+        .cv a {
+            padding: 10px 20px;
+        }
+        .social-link {
+            text-align: right;
+        }
+        .prog {
+            padding-top: 45px;
+        }
+/*about end*/
+
+/*work start*/
+        .work {
+            padding-bottom: 70px;
+        }
+        .work-c p {
+            padding: 0 20px;
+        }
+        .work h1 {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+/*work end*/
+
+/*latest work start*/
+    .latest-work{
+        padding-bottom: 60px;
+    }
+    .latest-work-content{
+        padding-top: 15px;
+        text-align: center;
+    }
+    .latest-work p {
+        padding: 0px;
+    }
+    .latest-work h1 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+/*latest work end*/
+
+/*project start*/
+    .project{
+        margin-bottom: 70px;
+        padding: 40px 0 60px;
+    }
+    .project-content h1 {
+        font-size: 28px;
+    }
+    .project-content h3 {
+        padding: 0px 0 10px;
+        font-size: 16px;
+    }
+/*project end*/
+
+/*slider start*/
+    .carousel-indicators {
+        bottom: -60px;
+    }
+    .box1, .box2 {
+        margin: 0px 0;
+    }
+    .box1 img {
+        width: 30%;
+    }
+    .box2 h4 {
+        padding: 20px 0 0;
+    }
+    .box3{
+        text-align: center;
+    }
+/*slider end*/
+
+/*contact start*/
+    .contact{
+        padding-bottom: 50px;
+    }
+    .c-box {
+        margin-top: 18px;
+        padding-bottom: 0;
+        text-align: center;
+    }
+/*contact end*/
+
+/*footer section start*/
+    
+/*footer section end*/
+
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*banner start*/
+        .banner {
+            padding-bottom: 90px;
+        }
+        .banner-content {
+            margin-top: 100px;
+            letter-spacing: 0px;
+        }
+        .banner-content h1 {
+            font-size: 35px;
+        }
+        .banner-img {
+            margin-top: 90px;
+            padding-left: 30px;
+        }
+/*banner end*/
+
+/*about start*/
+        .about h1 {
+            font-size: 40px;
+            margin-bottom: 25px;
+        }
+        .about {
+            padding-bottom: 90px;
+        }
+        .about-content h4 {
+            font-size: 20px;
+        }
+        .about p {
+            font-size: 14px;
+            line-height: 22px;
+        }
+        .count h2 {
+            font-size: 30px;
+        }
+        .count p {
+            font-size: 11px;
+        }
+        .cv a {
+            padding: 10px 20px;
+        }
+/*about end*/
+
+/*work start*/
+    .work {
+        padding-bottom: 60px;
+    }
+/*work end*/
+
+/*latest work start*/
+    .latest-work {
+        padding-bottom: 90px;
+    }
+/*latest work end*/
+
+/*project start*/
+    .project{
+        margin-bottom: 90px;
+        padding: 60px 0 70px;
+    }
+    .project-content h1 {
+        font-size: 35px;
+    }
+    .project-content h3 {
+        padding: 0px 0 15px;
+        font-size: 20px;
+    }
+/*project end*/
+
+/*slider start*/
+    .carousel-indicators {
+        bottom: -60px;
+    }
+    .box1, .box2 {
+        margin: 0px 0;
+    }
+    .box1 img {
+        width: 50%;
+    }
+    .box2 h4 {
+        padding: 20px 0 0;
+    }
+    .box3{
+        text-align: center;
+    }
+/*slider end*/
+
+/*contact start*/
+    .contact{
+        padding-bottom: 50px;
+    }
+    .c-box {
+        margin-top: 18px;
+        padding-bottom: 0;
+        text-align: center;
+    }
+/*contact end*/
+
+/*fotter start*/
+    
+/*fotter end*/
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+/*work start*/
+    .work-c h2 {
+        font-size: 22px;
+    }
+/*work end*/
+}
+
+/*Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+    
+}
